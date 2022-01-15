@@ -1,0 +1,64 @@
+# Site
+name: "MnFi"
+description: "Small community, Don't be serious."
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.png"
+baseurl: "/mnfi"
+disqus: "mnfi"
+email: "miftakhuddinfalaki@gmail.com"
+# mailchimp-list: "#"
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+authors:
+  kiki:
+    name: Kiki/🎮🍉⌨️🍩💻
+    site: https://kikukeii.github.io/MnFi/
+    avatar: assets/images/favicon.png
+    bio: "hello I'm friend K ... I like Learn programming but I don't like coding. I like apples, anime, Vtuber and memes."
+    email: miftakhuddinfalaki@gmail.com
+    twitter: https://twitter.com/kikukeii_
+    github: https://github.com/kikukeii
+    facebook: https://web.facebook.com/kikukeii
+
+# Defaults
+defaults:
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: kiki
+      avatar: /assets/images/favicon.png
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude:
+  [
+    README.markdown,
+    package.json,
+    grunt.js,
+    Gruntfile.js,
+    Gruntfile.coffee,
+    node_modules,
+  ]
