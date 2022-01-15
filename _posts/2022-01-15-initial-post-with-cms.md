@@ -5,7 +5,7 @@ author: kiki
 categories:
 - Initial
 - CMS
-image: "/assets/media/1-1.png"
+image: assets/media/android-icon-72x72.png
 tags: []
 
 ---
