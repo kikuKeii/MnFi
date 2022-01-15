@@ -5,3 +5,21 @@ fields:
 - type: text
   name: layout
   label: layout
+  description: post
+- name: title
+  type: include
+  config: {}
+  template: post
+  label: title
+  description: title
+- name: author
+  type: include
+  config: {}
+  template: post
+  label: author
+  description: author
+- name: categories
+  type: include
+  config: {}
+  template: post
+  label: categories
