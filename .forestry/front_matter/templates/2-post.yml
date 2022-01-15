@@ -1,9 +1,0 @@
----
-label: 2 post
-hide_body: false
-fields:
-- type: text
-  name: layout
-  label: layout
-pages:
-- _posts/2022-01-15-dasd.md
